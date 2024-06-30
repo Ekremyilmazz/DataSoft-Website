@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data Soft</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Menü kısmı başlangıç-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Data Soft</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#carouselExampleDark"
+                >Home <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hakkimizda">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ekibimiz">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Menü kısmı bitiş-->
+
+    <!--Slider başlangıç-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/sl1.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/sl2.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/sl3.jpg" class="d-block w-100 resimSlider" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Slider bitiş-->
+
+    <!--Hakkımızda başlangıç-->
+    <section class="p-5 text-center hakkimizda" id="hakkimizda">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">About Us</h2>
+        <hr />
+        <p>
+          Welcome! We are <b>Data Soft</b>, a software company that produces
+          innovative solutions. Founded in 2024, our company aims to guide our
+          clients on their digital transformation journey and make their
+          businesses more efficient, effective, and competitive.
+        </p>
+
+        <p>
+          Our mission is to provide custom software solutions by combining
+          advanced technology and creative thinking. We develop flexible and
+          scalable solutions to help our clients achieve their business goals.
+          Our top priority is to optimize business processes and enable our
+          clients to establish a stronger presence in the digital world through
+          the services we offer.
+        </p>
+        <p>
+          Our vision is to be a global company that makes a difference in the
+          software world and takes on a pioneering role in the industry. While
+          keeping pace with the rapidly changing dynamics of technology, we
+          continuously renew ourselves with an innovation and excellence-focused
+          approach to contribute to the success of our clients.
+        </p>
+      </div>
+    </section>
+    <!--Hakkımızda bitiş-->
+
+    <!--Ekibimiz başlangıç-->
+    <section class="p-5 text-center ekibimiz" id="ekibimiz">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Team</h2>
+        <hr />
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ahmet Eker</h5>
+                <p class="card-text">General Manager</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Zehra Aslan</h5>
+                <p class="card-text">Assistant Manager</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Melisa Akar</h5>
+                <p class="card-text">Service Desk Specialist</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ali Öztürk</h5>
+                <p class="card-text">Information Security Specialist</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Aslı Akça</h5>
+                <p class="card-text">Human Resource Specialist</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+          <div class="col shadow">
+            <div class="card h-100 ekipCard">
+              <img src="img/ekip6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mustafa Yıldırım</h5>
+                <p class="card-text">System and Infrastructure Specialist</p>
+              </div>
+              <div class="card-footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ekibimiz bitiş-->
+
+    <!--Galeri başlangıç-->
+    <section class="p-5 text-center galeri" id="galeri">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Gallery</h2>
+        <hr />
+
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/r1.jpg">
+                <img
+                  src="img/r1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web1.jpg">
+                <img
+                  src="img/web1.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web2.jpg">
+                <img
+                  src="img/web2.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web3.jpg">
+                <img
+                  src="img/web3.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web4.jpg">
+                <img
+                  src="img/web4.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web5.jpg">
+                <img
+                  src="img/web5.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web6.jpg">
+                <img
+                  src="img/web6.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="col-md-3">
+            <figure class="figure">
+              <a href="img/web7.jpg">
+                <img
+                  src="img/web7.jpg"
+                  class="figure-img img-fluid rounded shadow"
+                  alt="..."
+                />
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Galeri bitiş-->
+
+    <!--İletişim başlangıç-->
+    <section class="p-5 text-center iletisim" id="iletisim">
+      <div class="container">
+        <h2 class="mb-5 font-weight-bold">Contact Us</h2>
+        <hr />
+
+        <form action="" class="col-md-8 text-left m-auto">
+          <div class="form-group row">
+            <label for="" class="col-md-4 align-self-center">Name:</label>
+            <input type="text" class="form-control col-md-8" />
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-md-4 align-self-center">Surname:</label>
+            <input type="text" class="form-control col-md-8" />
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-md-4 align-self-center">Email:</label>
+            <input type="email" class="form-control col-md-8" />
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-md-4 align-self-center"
+              >Your Messages:</label
+            >
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form-control col-md-8"
+            ></textarea>
+          </div>
+          <div class="form-group row">
+            <button type="submit" class="col-md-3 btn btn-primary">
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--İletişim bitiş-->
+
+    <!--Footer Başlangıç-->
+    <div class="bg-dark text-light text-center">
+      <p class="align-middle p-5 mb-0">
+        <span>All rights reserved &copy; | 2024</span><br />
+        <span>Designed by <b>Data Soft</b></span>
+      </p>
+    </div>
+
+    <!--Footer Bitiş-->
+
+    <h1></h1>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
